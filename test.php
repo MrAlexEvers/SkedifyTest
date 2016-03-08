@@ -49,7 +49,7 @@ if(isset($_POST["input-data"]) && !empty($_POST["input-data"])){
 			$t = 3;
 		}
 		if(count($arr) > $t && is_int($key) && $key<=26 && $arr[$t-1] == " "){
-			$output = "<p>Sleutel = " . $key . "</p><p>Vertaling = <br />";
+			$output = "<p>Sleutel = " . $key . "</p><p>Ontcijferde boodschap = <br />";
 			for ($i = $t; $i < count($arr); $i++){
 				if(ctype_alpha($arr[$i]) && ctype_lower($arr[$i])){
 					//kleine letters
