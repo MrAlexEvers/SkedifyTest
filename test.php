@@ -48,7 +48,7 @@ if(isset($_POST["input-data"]) && !empty($_POST["input-data"])){
 			$key = intval($arr[0] . $arr[1]);
 			$t = 3;
 		}
-		if(count($arr) > $t && is_int($key) && $key<=26 && $arr[$t-1] == " "){
+		if(count($arr) > $t && is_int($key) && $key<=26 && $key>=0 && $arr[$t-1] == " "){
 			$output = "<p>Sleutel = " . $key . "</p><p>Ontcijferde boodschap = <br />";
 			for ($i = $t; $i < count($arr); $i++){
 				if(ctype_alpha($arr[$i]) && ctype_lower($arr[$i])){
