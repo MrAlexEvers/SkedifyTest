@@ -1,0 +1,3 @@
+<h2>Blokjes stapelen</h2>
+<p>Kleine Karel stapelt blokjes, en maakt daarbij een aantal kubussen. Hij maakt eerst een kubus van 1 blokje hoog (dat is dus 1 blokje op zichzelf). Daarnaast maakt hij een kubus van 2 blokjes hoog, daarnaast een kubus van 3 blokjes hoog, enzovoorts, tot hij een hele reeks kubussen voor zich heeft staan.</p>
+<p>Geef als input het aantal kubussen dat Karel zal maken (maximum 100), de ouput zal zeggen hoeveel blokjes er nodig zijn.</p>
